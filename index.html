@@ -18,26 +18,34 @@
     </form>
   </header>
   <main class="main-container">
-    <form action="" id="evaluation-form">
-      <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
-      <label for="input-name">Nome:
+    <form action="" method="get" id="evaluation-form">
+      <h3>Formulário de Avaliação</h3>
+      <div class="input-names">
         <input type="text" id="input-name" placeholder="Nome">
-      </label>
-      <label for="input-lastname">Sobrenome:
         <input type="text" id="input-lastname" placeholder="Sobrenome">
-      </label>
-      <label for="input-email">E-mail:
+      </div>
+      <div class="input-e-select">
         <input type="email" name="" id="input-email" placeholder="Email">
+        Casa:
+        <select name="" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+        <hr>
+      </div>
+      <label for="" class="textarea">Deixe seu comentário:
+        <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
       </label>
+      <label for="" id="label-infos">Você concorda com o uso das informações acima?
+        <input type="checkbox" name="" id="agreement">
+      </label>
+      <button type="submit" id="submit-btn">Enviar</button>
     </form>
-    <label for="" class="textarea">Deixe seu comentário:
-    <textarea name="" id="" cols="30" rows="10" maxlength="500"></textarea>
-    </label>
-    <label for="" id="label-infos">Você concorda com o uso das informações acima?
-      <input type="checkbox" name="" id="agreement">
-    </label>
-    <button type="submit" id="submit-btn">Enviar</button>
+    <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
   </main>
+  <footer class="footer">Direitos reservados à Trybewarts©.</footer>
 <script src="script.js"></script>
 </body>
 </html>
