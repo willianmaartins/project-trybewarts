@@ -143,6 +143,10 @@ hr {
   flex-direction: column;
 }
 
+#textarea {
+  border-radius: 4px;
+}
+
 .checked {
   margin: 8px;
 }
