@@ -20,3 +20,12 @@ const validateForm = () => {
   }
 };
 checkValid.addEventListener('click', validateForm);
+
+const textarea = document.getElementById('textarea');
+const counterChar = () => {
+  const counter = document.getElementById('counter');
+  const inputText = textarea.value.length;
+  const maxChar = 500 - inputText;
+  counter.innerHTML = maxChar;
+};
+textarea.addEventListener('keyup', counterChar);
