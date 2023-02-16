@@ -6,53 +6,150 @@
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
-  height: 200px;
+  justify-content: space-between;
+  height: 50px;
 }
 
 .trybewarts-login {
   display: flex;
+  align-content: center;
+}
+
+.trybewarts-login input {
+  border-radius: 50px;
+  margin: 8px;
+  padding: 6px;
+}
+
+.trybewarts-login button {
+  border-radius: 50px;
+  margin: 8px;
+  padding: 6px;
 }
 
 .main-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  width: 48%;
+  height: 40%;
+  margin: 8px 8px;
+  padding: 8px 8px;
 }
 
 #evaluation-form h3 {
   text-align: center;
-  margin: 8px;
+  margin: 8px 8px;
   width: 675px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  align-self: center;
 }
 
 .input-names {
+  margin: 8px 8px;
+  padding: 8px 8px;
+}
+
+.input-names input {
+  border-radius: 50px;
   margin: 8px;
-  padding: 8px;
+  padding: 6px;
+  width: 40%;
 }
 
 .input-e-select {
+  margin: 8px 8px;
+  padding: 8px 8px;
+}
+
+.input-e-select input {
+  border-radius: 50px;
   margin: 8px;
-  padding: 8px;
+  padding: 6px;
+  width: 40%;
+}
+
+.input-e-select select {
+  border-radius: 50px;
+  margin: 8px;
+  padding: 6px;
+  width: 43%;
 }
 
 hr {
   opacity: 40%;
   margin-top: 20px;
   width: 64%;
+  align-self: center;
 }
 
 .footer {
   text-align: center;
   background-color: rgb(50, 167, 145);
   color: black;
-  padding: 8px;
+  padding: 8px 8px;
+}
+
+.radios-e-checks {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-family {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-learning {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.learning { 
+  display: flex;
+  justify-content: space-around;
+}
+
+.radio-value {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  text-align: center;
+}
+
+.text-e-check {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  margin: 8px 8px;
+  padding: 8px 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checked {
+  margin: 8px 8px;
+}
+
+#submit-btn {
+  border-radius: 50px;
+  margin: 8px;
+  padding: 6px;
 }
