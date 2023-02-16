@@ -37,13 +37,13 @@
   width: 675px;
   flex-direction: column;
   height: 40%;
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
 }
 
 #evaluation-form h3 {
   text-align: center;
-  margin: 8px 8px;
+  margin: 8px;
   width: 675px;
 }
 
@@ -53,8 +53,8 @@
 }
 
 .input-names {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
 }
 
 .input-names input {
@@ -65,8 +65,8 @@
 }
 
 .input-e-select {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
 }
 
 .input-e-select input {
@@ -94,57 +94,57 @@ hr {
   text-align: center;
   background-color: rgb(50, 167, 145);
   color: black;
-  padding: 8px 8px;
+  padding: 8px;
 }
 
 .radios-e-checks {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
 }
 
 .radio-family {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
 }
 
 .checkbox-learning {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
 }
 
-.learning { 
+.learning {
   display: flex;
   justify-content: space-around;
 }
 
 .radio-value {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
   text-align: center;
 }
 
 .text-e-check {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
 }
 
 .textarea {
-  margin: 8px 8px;
-  padding: 8px 8px;
+  margin: 8px;
+  padding: 8px;
   display: flex;
   flex-direction: column;
 }
 
 .checked {
-  margin: 8px 8px;
+  margin: 8px;
 }
 
 #submit-btn {
